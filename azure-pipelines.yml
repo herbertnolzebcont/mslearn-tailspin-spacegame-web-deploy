@@ -129,7 +129,7 @@ stages:
   dependsOn: Test
   jobs:
   - deployment: Deploy
-    envrionment: staging
+    environment: staging
     variables:
     - group: 'Release'
     strategy:
