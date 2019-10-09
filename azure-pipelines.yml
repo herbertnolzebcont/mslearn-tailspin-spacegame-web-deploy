@@ -112,7 +112,7 @@ stages:
     variables:
     - group: 'Release'
     strategy:
-      run0nce:
+      runOnce:
         deploy:
           steps:
           - download: current
